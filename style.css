@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "MontSerrat", Arial,sans-serif;
+    box-sizing: border-box;/**/
+}
+
+/*estilizando o topo do site*/
+.background-verde{
+   background-color: #14424b;
+
+}
+
+.container{
+   max-width: 1440px;
+   padding: 0 5%;
+   margin: 0 auto;
+
+}
+
+.background-verde .container nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+    
+}
+
+.container nav .logo{
+   font-size: 30px;
+   font-weight: bold;
+   color: white;
+
+}
+
+.container nav .ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.container nav .ul li{
+    margin: 0 35px;
+    font-size: 18px;
+
+}
+
+.container nav .ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.container nav .ul li a:hover{
+   border-bottom: 2px solid #22d4fd;
+   color: #fa8607;
+  
+}
+
+.botao-azul{
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #22d4fd;
+    cursor: pointer;
+    
+}
+
+/* estilizacão do main*/
+
+main .container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main-text { /*quando é tag não tem ponto, ja a class tem (.class)*/
+    width: 50%;
+    color: white;
+
+}
+
+.main-img{
+    width: 50%;
+   
+}
+.main-img img{
+    width: 100%;
+}
+
+.main-text h1{
+    font-size: 50px;
+    line-height: 60px;
+
+}
+
+.main-text span{
+    color: #22d4fd;
+}
+
+.main-text p{
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 30px;
+    
+}
+
+.main-text div{
+    display: flex;
+    align-items: cente;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 8px;
+    
+}
+
+.boatao-azul-main{
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #6edbf97e;
+    background: linear-gradient(#6edcf9,#1c60a0);
+    cursor: pointer;
+    
+}
+
+.botao-vermelho-main{
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #ff3e6ea8;
+    background: linear-gradient(#ff3e6e,#be2d6e);
+    cursor: pointer;
+
+}
+
+.resultados{
+    background-color: #fa8607;
+
+}
+
+.resultados .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.resultados-text{
+   color: white;
+   font-size: 24px;
+   font-weight: 500; 
+   width: 50%;
+
+}
+
+.resultados-numeros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+
+}
+
+.resultados-numeros p{
+    text-align: center;
+    margin: 0 30px;
+    font-size: 20px;
+
+}
+.resultados-numeros p span{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+section, footer{
+    padding: 35px 0;
+
+}
+
+/* Estilizando os Cards */
+
+.diferencias .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;     
+}
+
+.diferencias .card{
+
+    width: 30%;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid green;
+}
+
+.diferencias .card:hover{
+    
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+   rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+     rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.diferencias .card img{
+    width: 60px;
+}
+
+.diferencias .card .titulo{
+    margin: 13px;
+    font-weight: 600 ;
+}
+
+/*estilizando a empresa*/
+
+.empresa .container {
+    display: flex;
+    align-items:  center;
+}
+
+.empresa .empresa-img{
+    width: 50%;
+}
+
+.empresa .empresa-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.empresa .empresa-text{
+
+    width: 50%;
+    padding-left: 90px;
+
+}
+
+.empresa .empresa-text h2{
+   font-size: 35px;
+}
+
+.empresa .empresa-text p{
+    margin: 20px;
+    color: silver;
+}
+
+.empresa .empresa-text p b{
+    color: black;
+    font-size: 20px;
+    
+}
+
+/*estilizar o rodapé*/
+
+footer{
+    background-color: #14424b;
+}
+
+footer .container{
+    display: flex;
+    color: white;
+}
+
+footer .container ul{
+    width: 25%;
+}
+
+footer .container h3{
+    margin-bottom: 16px;
+}
+
+footer .container .redes-sociais img{
+    margin-right: 5px;
+}
+
+footer .container .redes-sociais img:hover{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+footer .container ul>p{
+    margin-bottom: 40px;
+}
+
+footer .container li{
+    margin: 10px 0;
+    list-style: none;
+}
+
+footer .container a{
+     color: white;
+     text-decoration: none;
+
+}
